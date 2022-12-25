@@ -1,0 +1,32 @@
+
+/* ================================================== */
+/*  RU Style */
+/* ================================================== */
+
+
+
+
+.download-box .top {
+    padding: 50px 50px 20px;
+}
+
+.btn-fourth {
+    width: 60%;
+}
+
+.client-form-wrapper input.checkout-btn {
+    width: 200px !important;
+  
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    font-size: 14px !important;
+}
+
+@media (max-width: 991px) {
+	.btn-fourth {
+		width: 100%;
+	
+	}
+}

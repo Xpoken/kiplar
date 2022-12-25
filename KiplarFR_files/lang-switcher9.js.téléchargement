@@ -1,0 +1,74 @@
+(function($) {
+   
+   
+   
+   		
+$('#langSelect').on('change', function() {
+  var value = $(this).val();
+  
+  
+  
+  var initialURLen = 'https://www.kiplar.org';
+  var initialURLru = 'https://kiplar.com';
+  var initialURLpt = 'https://pt.kiplar.com';
+  var initialURLaz = 'https://az.kiplar.com';
+  var initialURLth = 'https://th.kiplar.com';
+  var initialURLes = 'https://sp.kiplar.com';
+  var initialURLfr = 'https://fr.kiplar.net';
+  var initialURLcn = 'https://cn.kiplar.com';
+  var initialURLde = 'https://de.kiplar.com'; 
+  var initialURLit = 'https://it.kiplar.com'; 
+  var initialURLar = 'https://ar.kiplar.com'; 
+  
+  
+  switch (value){
+    case "EN":
+   window.location.href = initialURLen + window.location.pathname;
+    break;
+	
+	 case "PT":
+   window.location.href = initialURLpt + window.location.pathname;
+    break;
+	
+	 case "RU":
+   window.location.href = initialURLru + window.location.pathname;
+      break;
+	  
+    case "AZ":
+   window.location.href = initialURLaz + window.location.pathname;
+    break;
+	
+    case "CN":
+   window.location.href = initialURLcn + window.location.pathname;
+    break;
+		
+    case "TH":
+   window.location.href = initialURLth + window.location.pathname;
+    break;
+	
+    case "ES":
+   window.location.href = initialURLes + window.location.pathname;
+    break;
+			
+    case "FR":
+   window.location.href = initialURLfr + window.location.pathname;
+    break;
+	
+    case "DE":
+   window.location.href = initialURLde + window.location.pathname;
+    break;	
+
+    case "IT":
+   window.location.href = initialURLit + window.location.pathname;
+    break;
+	
+	case "AR":
+   window.location.href = initialURLar + window.location.pathname;
+    break;
+	
+     default:
+}
+});
+   
+   
+})(jQuery);
